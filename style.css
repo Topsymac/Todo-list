@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(9, 95, 223);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.outerbody {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.topsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.taskinput {
+    padding: 5px 15px 5px 5px;
+    border: 1px solid rgb(181, 175, 175);
+    border-radius: 2px;
+    width: 30vw;
+}
+
+.taskinput>input:focus,
+.taskinput>input:hover,
+.taskinput>input:focus-within {
+    outline: none;
+}
+
+.addbutton {
+    padding: 10px;
+}
+
+.addbutton button {
+    padding: 7px 20px;
+    background-color: rgb(26, 86, 215);
+    color: #fff;
+    border: 0px solid transparent;
+    border-radius: 5px;
+}
+
+.todo-items {
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.todo-item {
+    background-color: rgb(226, 242, 237);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.todo-item p {
+    font-size: 12px
+}
+
+.strike-through {
+    text-decoration: line-through;
+}
+
+.todo-item button {
+    background-color: blue;
+    padding: 10px;
+    border: 0px solid transparent;
+    border-radius: 5px;
+}
+
+.todo-item i {
+    color: #fff;
+}
